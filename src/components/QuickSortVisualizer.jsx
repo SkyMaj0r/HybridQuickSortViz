@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+const Button = (props) => <button className="px-4 py-2 bg-blue-600 text-white rounded" {...props} />;
+const Input = (props) => <input className="border px-3 py-1 rounded" {...props} />;
 
 function QuickSortVisualizer() {
   const [array, setArray] = useState([]);
