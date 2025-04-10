@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/HybridQuickSortViz/", // make sure this starts and ends with /
+  base: "/HybridQuickSortViz", 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
